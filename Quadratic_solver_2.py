@@ -1,9 +1,13 @@
 import math
 
 while True:
-    a = float(input("Enter coefficient a (or type '_' to quit): "))
-    if a == '_':
+    a_input = input("Enter coefficient a (or type 'exit' to quit): ") 
+    if a_input == 'exit': 
         break
+    else:
+        a = float(a_input) 
+    
+    
     b = float(input("Enter coefficient b: "))
     c = float(input("Enter coefficient c: "))
 
